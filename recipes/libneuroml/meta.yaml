@@ -18,6 +18,7 @@ build:
 requirements:
   build:
     - python
+    - pip
   run:
     - python
     - lxml
@@ -36,6 +37,7 @@ about:
   license_file: LICENSE
   summary: 'A Python library for working with neuronal models specified in NeuroML 2'
   dev_url: https://github.com/NeuralEnsemble/libNeuroML
+  doc_url: http://libneuroml.readthedocs.io/
 
 extra:
   recipe-maintainers:
